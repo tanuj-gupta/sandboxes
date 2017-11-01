@@ -37,8 +37,8 @@
 // ====================================================================
 
 // // Modules
-// var greet = require("./greet");
-// greet();
+var greet = require("./greet");
+greet();
 
 // ====================================================================
 // var person = {
@@ -69,3 +69,13 @@
 // console.log(tanuj.__proto__);
 
 // ====================================================================
+
+// var fn = "Gupta";
+
+// (function (ln) {
+//     var fn = "Tanuj";
+//     console.log(fn);
+//     console.log(ln);
+// }("Super"));
+
+// console.log(fn);
