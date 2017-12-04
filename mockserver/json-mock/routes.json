@@ -1,0 +1,3 @@
+{
+    "/api/v1/MarketData/*\\?currency=:currency" : "/$1?currency=:currency",
+}
