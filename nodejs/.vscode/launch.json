@@ -4,7 +4,13 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch parsejira",
+            "program": "${workspaceFolder}/parsejira.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch app",
             "program": "${workspaceRoot}/app.js"
         },
 {
